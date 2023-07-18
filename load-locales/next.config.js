@@ -23,10 +23,12 @@ module.exports = async () => {
         {
           domain: "example.com",
           defaultLocale: "en-US",
+          http: true,
         },
         {
           domain: "example.nl",
           defaultLocale: "nl-NL",
+          http: true,
         },
         {
           domain: "example.fr",
